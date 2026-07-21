@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class SieveofEratosthenes_PrimeOpt {
 	
 		public static void main(String[]args) {
-		
+		 
 		Scanner scan = new Scanner(System.in);
 	    System.out.print("enter a upper limit:");
 		int n = scan.nextInt();
