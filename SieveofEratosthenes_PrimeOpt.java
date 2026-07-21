@@ -11,7 +11,7 @@ public class SieveofEratosthenes_PrimeOpt {
 		boolean[] isprime = new boolean[n+1];
 		
 		Arrays.fill(isprime, true);
-		
+		 
 		if(n >=0) isprime[0]=false;
 		if(n>=1) isprime[1]=false;
 		
