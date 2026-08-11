@@ -9,7 +9,6 @@ public class SieveofEratosthenes_PrimeOpt {
 	    System.out.print("enter a upper limit:"); 
 		int n = scan.nextInt();
 		boolean[] isprime = new boolean[n+1];
-		
 		Arrays.fill(isprime, true);
 		   
 		if(n >=0) isprime[0]=false;
