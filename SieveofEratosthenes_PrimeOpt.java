@@ -19,7 +19,7 @@ public class SieveofEratosthenes_PrimeOpt {
 				for(int j=i*i;j<=n;j +=i) {
 					isprime[j]=false;
 				}
-			}
+			} 
 		}
 		
 		System.out.print("Enter starting range (lower limit): ");
